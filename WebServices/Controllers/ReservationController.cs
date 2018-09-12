@@ -34,7 +34,7 @@ namespace WebServices.Controllers
             return repo.Update(item);
         }
 
-        public void DeleteREservation(int id)
+        public void DeleteReservation(int id)
         {
             repo.Remove(id);
         }
